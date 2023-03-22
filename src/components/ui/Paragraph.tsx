@@ -1,6 +1,6 @@
 import { HTMLAttributes, forwardRef } from "react";
 import { VariantProps, cva } from "class-variance-authority";
-import { cn } from "@/app/lib/utils";
+import { cn } from "@/lib/utils";
 interface ParagraphProps
   extends HTMLAttributes<HTMLParagraphElement>,
     VariantProps<typeof paragraphVariants> {}
