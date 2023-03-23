@@ -1,11 +1,13 @@
 import { getServerSession } from "next-auth";
 import Link from "next/link";
-import { FC } from "react";
 import { buttonVariants } from "@/ui/Button";
+import SignInButton from "@/ui/SignInButton";
+import SignOutButton from "@/ui/SignOutButton";
 
-interface NavbarProps {}
 
-const Navbar = async ({}) => {
+
+
+const Navbar = async () => {
   const session = await getServerSession();
 
   return (
