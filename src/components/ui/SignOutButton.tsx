@@ -1,5 +1,6 @@
 "use client";
 
+import { toast } from "@/components/ui/Toast";
 import { FC, useState } from "react";
 import Button from "@/ui/Button";
 import { signOut } from "next-auth/react";

@@ -3,7 +3,7 @@ import Link from "next/link";
 import { buttonVariants } from "@/ui/Button";
 import SignInButton from "@/ui/SignInButton";
 import SignOutButton from "@/ui/SignOutButton";
-import ThemeToggle from "@/components/ThemeToggle";
+import { ThemeToggle } from "@/components/ThemeToggle";
 
 
 
