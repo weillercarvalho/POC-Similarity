@@ -3,6 +3,7 @@ import Link from "next/link";
 import { buttonVariants } from "@/ui/Button";
 import SignInButton from "@/ui/SignInButton";
 import SignOutButton from "@/ui/SignOutButton";
+import ThemeToggle from "@/components/ThemeToggle";
 
 
 
@@ -18,10 +19,10 @@ const Navbar = async () => {
         </Link>
 
         <div className="md:hidden">
-          <ThemeToogle />
+          <ThemeToggle />
         </div>
         <div className="hidden md:flex gap-4">
-          <ThemeToogle />
+          <ThemeToggle />
           <Link
             href="/documentation"
             className={buttonVariants({ variant: "ghost" })}
