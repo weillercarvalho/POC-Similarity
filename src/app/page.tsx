@@ -6,7 +6,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Similarity API",
-  authors: [{ name: "Weiller" }, { url: "http://weillercarvalho.com" }],
+  authors: [{ name: "Weiller" }, { url: "https://weillercarvalho.com" }],
 };
 
 export default function Home() {
